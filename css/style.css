@@ -1,0 +1,61 @@
+.quem-somos{
+    background-color: #025C62;
+}
+
+.navbarra {
+    background-color: rgb(43, 18, 153);
+}
+.margin{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.base{
+    margin-top: 30px;
+}
+.testoap{
+    font-size: medium;
+    color: white;
+}
+.imagens1{
+    margin-top: 30px;
+}
+.nome_profile{
+    color: white;
+    font-size: x-large;
+}
+
+.serviçossection{
+    background-color: #212E2F;
+    padding-top: 20px;
+    color: whitesmoke;
+    font-size: x-large;
+    
+}
+.elosco{
+    background-color: #034B83;
+    margin-bottom: 200px;
+}
+.appco{
+    background-color: yellowgreen;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.musicaco{
+    background-color: turquoise;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+}
+.serviçostext{
+    font-size: small;
+}
+.parceirosco{
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+}
+.invisible{
+    visibility: hidden !important;
+}

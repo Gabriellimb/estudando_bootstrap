@@ -1,30 +1,108 @@
 <!DOCTYPE html>
-<html>
-        <head>
-            <title>Minha página</title>
-            <meta charset="utf-8">
-            <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-            <link rel="stylesheet" type="text/css" href="css/style.css>">
-        </head>
-        <body>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">
-                        <img src="img/dio.png" width="300">
-                    </a>
-                    <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Quem somos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Parceiros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Serviços</a>
-                            </li>
-                        </ul>
+<html lang="pt-br">
+    <head>
+        <title>Página Inicial</title>
+        <meta  charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="img/logo.jpg" class="rounded-circle" width="60"></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quemsomos">Quem sou eu?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#serviços">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="quemsomos">
+            <div class="container-fluid quem-somos text-center margin">
+                <h30 class="nome_profile">Gabriel Limberger</h30>
+                <div>
+                <img src="img/gabriel.jpg" class="rounded-circle">
+                </div>
+                <div class="base">
+                    <h2 class="testoap">meu nome é Gabriel Limberger</h2>
+                    <h2 class="testoap">conhecimentos nas areas de musica</h2>
+                    <h2 class="testoap">estudando programação e diversas outras coisas</h2>
+                </div>
+                <div class="imagens1">
+                    <img src="img/linguagem-de-programação.jpg" width="300px">
+                    <img src="img/musica-boa.jpg" width="300px" height="200px">
+                </div>
+            </div>
+        </section>
+        
+        <section id="serviços">
+            <div class="container-fluid serviçossection text-center"> 
+                <h3>Serviços</h3>
+                <div class="container">
+                    <div class="row">                  
+                        <div class="col-lg-4 elosco rounded">
+                            <a href="coach.html"><img src="img/elos.png" width="100%"></a>                    
+                            <h3 class="serviçostxt">Coaching</h3>
+                            <h3 class="serviçostxt">de</h3>
+                            <h3 class="serviçostxt">League os Legends</h3>
+                        </div>
+                    
+                        <div class="col-lg-4 musicaco rounded">
+                            <a href="musica.html"><img src="img/guitarra.jpg" width="70%"></a>
+                            <h3 class="serviçostxt">criação de musicas</h3>
+                            <h3 class="serviçostxt">e</h3>
+                            <h3 class="serviçostxt">riffs de guitarra</h3>
+                        </div>
+
+                        <div class="col-lg-4 appco rounded">
+                            <a href="apps.html"><img src="img/app.png" class="rounded" width="70%"></a>
+                            <h3 class="serviçostxt">desenvolvimento</h3>
+                            <h3 class="serviçostxt">de</h3>
+                            <h3 class="serviçostxt">apps</h3>
+                        </div>
                     </div>
-            </nav>
-        </body>
+
+                </div>
+        
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <div class="container-fluind text-center">
+                <h3>Parceiros</h3>
+                <div class="parceirosco">
+                <a href="https://web.digitalinnovation.one/home"><img src="img/dio.png"></a>
+                <div class="invisible">   
+                    <h3>a</h3>
+                </div>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <footer>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="tel:9999999999"><img src="img/phone.svg">  99-9999.9999</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:glimbergeravila@gmail.com"><img src="img/mail.svg">  glimbergerger@gmail.com</a>
+                        </li>                       
+                    </ul>
+                </div>
+        </footer>
+                
+
+    </body>
 
 </html>
